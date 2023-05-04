@@ -38,14 +38,14 @@ const Login = () => {
 
         <button>Log In</button>
 
-        <GoogleLogin className={style.go}
-          clientId="804485400642-ql0oec6nnarp74n4keo22bq9ou539gme.apps.googleusercontent.com"
-          buttonText="Google"
-          onSuccess={successResponse}
-          onFailure={failResponse}
-          cookiePolicy={'single_host_origin'}
-          prompt="select_account"
-        />
+//         <GoogleLogin className={style.go}
+//           clientId="804485400642-ql0oec6nnarp74n4keo22bq9ou539gme.apps.googleusercontent.com"
+//           buttonText="Google"
+//           onSuccess={successResponse}
+//           onFailure={failResponse}
+//           cookiePolicy={'single_host_origin'}
+//           prompt="select_account"
+//         />
         
         <label className={style.lbRegister}><Link to="/signup">Register</Link></label>
       </form>
