@@ -92,16 +92,16 @@ export default function LoginFormik() {
                   <p className={style.error}>{loginErrorMessage}</p>
                 )}
               </div>
-              <GoogleLogin
-                clientId="804485400642-ql0oec6nnarp74n4keo22bq9ou539gme.apps.googleusercontent.com"
-                buttonText="Sign in with Google"
-                onSuccess={successResponse}
-                onFailure={failResponse}
-                cookiePolicy={"single_host_origin"}
-              />
-              {googleAuthErrorMessage && (
-                <p className={style.error}>{googleAuthErrorMessage}</p>
-              )}
+//               <GoogleLogin
+//                 clientId="804485400642-ql0oec6nnarp74n4keo22bq9ou539gme.apps.googleusercontent.com"
+//                 buttonText="Sign in with Google"
+//                 onSuccess={successResponse}
+//                 onFailure={failResponse}
+//                 cookiePolicy={"single_host_origin"}
+//               />
+//               {googleAuthErrorMessage && (
+//                 <p className={style.error}>{googleAuthErrorMessage}</p>
+//               )}
               <a className={style.link} onClick={() => navigate("/forgot-password")}>
                 Forgot password?
               </a>
